@@ -16,7 +16,7 @@ Comment.init(
     {
         sequelize
     }
-)
+);
 
 
 

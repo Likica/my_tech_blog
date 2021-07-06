@@ -14,7 +14,7 @@ router.get('/', withAuth, (req, res) => {
         .then(dbPostData => {
             const posts = dbPostData.map(post => post.get({ plain: true }));
             //allPosts handlebar
-            res.render('allPosts', { posts, layout: 'dashboard' });
+            res.render('all-posts', { posts, layout: 'dashboard' });
         })
         .catch(err => {
             console.log(err);

@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
         .then(dbPostData => {
             const posts = dbPostData.map(post => post.get({ plain: true }));
 
-            res.render('viewPosts', {
+            res.render("all-posts", {
                 posts
             });
         })

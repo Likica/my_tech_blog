@@ -14,7 +14,7 @@ Post.init(
     {
         sequelize
     }
-)
+);
 
 
 

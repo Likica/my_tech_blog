@@ -2,6 +2,8 @@ const { Post } = require('../models');
 
 const postdata = [
   {
+    title: 'Donec posuere metus vitae ipsum.',
+    user_id: 1
   }
 ];
 
