@@ -1,11 +1,11 @@
 const router = require('express').Router();
-const { Post } = require('../models');
 const withAuth = require('../utils/auth');
+const { Post } = require('../models');
 
 // get all posts for dashboard
 router.get('/', withAuth, (req, res) => {
-    console.log(req.session);
-    console.log('======================');
+    // console.log(req.session);
+
     Post.findAll({
         where: {
             user_id: req.session.user_id
@@ -41,8 +41,8 @@ router.get('/edit/:id', withAuth, (req, res) => {
         });
 });
 
-router.get('/new', withAuth, (req, res) => {
-    res.render('newPost', {
+router.get('/add', withAuth, (req, res) => {
+    res.render('add-post', {
         layout: 'dashboard'
     })
 })

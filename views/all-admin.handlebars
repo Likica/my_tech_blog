@@ -1,1 +1,7 @@
-<h1>All Admin Posts</h1>
+<div class='posts post-group'>
+    {{#each posts}}
+    <a class='flex-row justify-space-between post-item' href='/dashboard/edit {{id}}'>
+        <span>{{title}}</span>
+        <span>{{format_date createAt}}</span></a>
+    {{/each}}
+</div>

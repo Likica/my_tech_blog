@@ -1,39 +1,37 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Tech Blog</title>
-    <link rel="stylesheet" href="../../public/stylesheets/style.css">
+    <link href='/public/stylesheets/style.css'>
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class='wrapper'>
         <header>
             <h1>
                 <a href="/">My Tech Blog</a>
             </h1>
-            <nav>
+            <nav class="navbar">
 
                 <a href="/">Home</a>
                 <a href="/dashboard">Dashboard</a>
-                <button id="logout" class="btn-no-style">logout</button>
-                <a href="/login">login</a>
-
+                <a href="/login">Login</a>
+                <button id="logout" class="btn-logout">Logout</button>
             </nav>
         </header>
-        <main>
+        <main class='col-auto'>
             {{{ body }}}
         </main>
-        <footer>
-            Come Back Again!
+        <footer class='flex-row justify-center'>
+            &copy; Likica says 'Come Back Again!'😀
         </footer>
     </div>
-
-    {{!--
-    <script src="../../public/javascript/logout.js"></script> --}}
 
 </body>
 
 </html>
+
+<script src="/../javascript/logout.js"></script>

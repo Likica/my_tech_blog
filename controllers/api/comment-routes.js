@@ -8,7 +8,7 @@ router.post('/', withAuth, (req, res) => {
         user_id: req.session.user_id
 
     })
-        .then(dbCommentData => res.json(dbCommentData))
+        .then(newPost => res.json(newPost))
         .catch(err => {
             console.log(err);
             res.status(400).json(err);

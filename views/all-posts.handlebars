@@ -1,1 +1,19 @@
-<h1>All Posts</h1>
+<div class='posts'>
+    {{#each posts}}
+    <article class='card'>
+        <div class='flex-row justify-space-between card-header'>
+            <h1>
+                <a href='/post/{{id}}'>{{title}}</a>
+            </h1>
+            <div>
+                {{!-- Info for user posting the post --}}
+                Post by {{User.username}} on {{format_date createdAt}}
+            </div>
+        </div>
+        {{!-- Include holder for post's text --}}
+        <div class='card-body'>
+            {{body}}
+        </div>
+    </article>
+    {{/each}}
+</div>
