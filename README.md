@@ -1,6 +1,6 @@
 # my_tech_blog
   ### By Likica * [Email me](mailto:fahrija_wyroski@live.com) * 
-  * [Deployed Appplication](https://fw-my-texh-blog.herokuapp.com)
+  * [Deployed Appplication](https://fe-techblog.herokuapp.com)
  
   ## Table of contents
   * [Description](#Description)
