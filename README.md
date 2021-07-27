@@ -26,6 +26,31 @@
   ## Usage Instructions
   ##### [Back to Table of Contents](#Table-of-Contents)
 User can write, save, edit and delete posts. Also can add comments to posts.
+Landing page:
+
+  * Landing page:
+<p align="center" width="100%">
+    <img src="public/images/landing_pg.png" width="40%"/>
+</p>
+
+  * Signup
+    <p align="center" width="100%">
+    <img src="public/images/signup.png" width="40%"/>
+</p>
+  
+  * Create Post:
+
+    <p align="center" width="100%">
+    <img src="public/images/create_post.png" width="40%"/>
+</p>
+ 
+  * Logout:
+- User needs just to click 'Logout' button and you will be logged out and back on start page
+    
+<p align="center" width="100%">
+  <img src="public/images/signup.png" width="40%"/>
+   <img src="public/images/landing_pg.png" width="40%"/>
+</p>
 
   ## Contributing
   ##### [Back to Table of Contents](#Table-of-Contents)
