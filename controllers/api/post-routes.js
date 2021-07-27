@@ -3,7 +3,7 @@ const { Post } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 
-router.post('/', withAuth, (req, res) => {
+router.post('/api/posts', withAuth, (req, res) => {
 
     Post.create({
 
@@ -17,7 +17,7 @@ router.post('/', withAuth, (req, res) => {
         });
 });
 
-router.put('/:id', withAuth, (req, res) => {
+router.put('/api/post/:id:id', withAuth, (req, res) => {
     Post.update(
         {
             body: req.body
@@ -41,7 +41,7 @@ router.put('/:id', withAuth, (req, res) => {
         });
 });
 
-router.delete('/:id', withAuth, (req, res) => {
+router.delete('/api/post/:id:id', withAuth, (req, res) => {
     // console.log('id', req.params.id);
     Post.destroy({
         where: {
