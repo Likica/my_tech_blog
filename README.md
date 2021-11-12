@@ -1,5 +1,5 @@
 # my_tech_blog
-  ### By Likica * [Email me](mailto:fahrija_wyroski@live.com) * 
+  ### By Likica * [Email me](mailto:codefin9@hotmail.com)) * 
   * [Deployed Appplication](https://fe-techblog.herokuapp.com)
  
   ## Table of contents
